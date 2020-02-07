@@ -53,3 +53,4 @@ filter(flights, origin == "JFK", dest == "SEA") %>%
     max_air_time = max(air_time, na.rm = TRUE),
     min_air_time = min(air_time, na.rm = TRUE)
   )
+
